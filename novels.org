@@ -37,3 +37,6 @@
    今の僕にあるのは打算にまみれた恋と呼べるかも怪しい感情ばかりだ。
    それでも、僕はそれを恋と呼ぶ。それもまた確かに恋なのだと。
    
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
