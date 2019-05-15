@@ -1,0 +1,41 @@
+baseurl: 'https://novels.warashi.dev/'
+theme: cupper-hugo-theme
+languageCode: ja-JP
+defaultContentLanguage: ja
+title: ざしきわらしの駄文置き場
+copyright: © 2019 Copyright warashi
+canonifyurls: true
+enableEmoji: true
+hasCJKLanguage: true
+publishDir: docs
+blackfriday:
+  hrefTargetBlank: true
+  nofollowLinks: true
+  noreferrerLinks: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /post/:filename/
+
+imaging:
+  quality: 99
+
+params:
+  dateFormat: '2006/01/02'
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Novels
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: RSS
+      url: /index.xml
+      weight: 4
